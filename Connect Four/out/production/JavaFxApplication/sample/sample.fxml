@@ -1,0 +1,1703 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="779.0" prefWidth="1105.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <SplitPane layoutX="7.0" layoutY="320.0" orientation="VERTICAL" prefHeight="756.0" prefWidth="934.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <SplitPane dividerPositions="0.7403846153846154" layoutX="190.0" layoutY="104.0" prefHeight="160.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <items>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                           <children>
+                              <StackPane layoutX="249.0" layoutY="286.0" prefHeight="150.0" prefWidth="200.0" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="150.0">
+                                 <children>
+                                    <Rectangle arcHeight="5.0" arcWidth="5.0" height="630.0" stroke="TRANSPARENT" strokeType="INSIDE" width="780.0" StackPane.alignment="CENTER">
+                                       <fill>
+                                          <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                                             <stops>
+                                                <Stop>
+                                                   <color>
+                                                      <Color red="0.21279999613761902" green="0.2996000051498413" blue="0.5600000023841858" opacity="0.6643835306167603" />
+                                                   </color>
+                                                </Stop>
+                                                <Stop offset="1.0">
+                                                   <color>
+                                                      <Color red="0.07360623776912689" green="0.1350279450416565" blue="0.3368421196937561" />
+                                                   </color>
+                                                </Stop>
+                                             </stops>
+                                          </RadialGradient>
+                                       </fill>
+                                    </Rectangle>
+                                    <GridPane fx:id="gridPane" alignment="CENTER" hgap="5.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="750.0" vgap="5.0">
+                                       <columnConstraints>
+                                          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                       </columnConstraints>
+                                       <rowConstraints>
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                       </rowConstraints>
+                                       <padding>
+                                          <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                       </padding>
+                                       <children>
+                                          <Circle fx:id="c00" fill="WHITE" radius="45.0" strokeType="INSIDE" GridPane.columnIndex="0" GridPane.rowIndex="0">
+                                             <stroke>
+                                                <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                   <stops>
+                                                      <Stop>
+                                                         <color>
+                                                            <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                         </color>
+                                                      </Stop>
+                                                      <Stop offset="1.0">
+                                                         <color>
+                                                            <Color red="1.0" green="1.0" blue="1.0" />
+                                                         </color>
+                                                      </Stop>
+                                                   </stops>
+                                                </RadialGradient>
+                                             </stroke>
+                                          </Circle>
+                                          <Circle fx:id="c10" fill="WHITE" radius="45.0" strokeType="INSIDE" GridPane.columnIndex="1" GridPane.rowIndex="0">
+                                             <stroke>
+                                                <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                   <stops>
+                                                      <Stop>
+                                                         <color>
+                                                            <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                         </color>
+                                                      </Stop>
+                                                      <Stop offset="1.0">
+                                                         <color>
+                                                            <Color red="1.0" green="1.0" blue="1.0" />
+                                                         </color>
+                                                      </Stop>
+                                                   </stops>
+                                                </RadialGradient>
+                                             </stroke>
+                                          </Circle>
+                                          <Circle fx:id="c20" fill="WHITE" radius="45.0" strokeType="INSIDE" GridPane.columnIndex="2" GridPane.rowIndex="0">
+                                             <stroke>
+                                                <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                   <stops>
+                                                      <Stop>
+                                                         <color>
+                                                            <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                         </color>
+                                                      </Stop>
+                                                      <Stop offset="1.0">
+                                                         <color>
+                                                            <Color red="1.0" green="1.0" blue="1.0" />
+                                                         </color>
+                                                      </Stop>
+                                                   </stops>
+                                                </RadialGradient>
+                                             </stroke>
+                                          </Circle>
+                                          <Circle fx:id="c30" fill="WHITE" radius="45.0" strokeType="INSIDE" GridPane.columnIndex="3" GridPane.rowIndex="0">
+                                             <stroke>
+                                                <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                   <stops>
+                                                      <Stop>
+                                                         <color>
+                                                            <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                         </color>
+                                                      </Stop>
+                                                      <Stop offset="1.0">
+                                                         <color>
+                                                            <Color red="1.0" green="1.0" blue="1.0" />
+                                                         </color>
+                                                      </Stop>
+                                                   </stops>
+                                                </RadialGradient>
+                                             </stroke>
+                                          </Circle>
+                                          <Circle fx:id="c40" fill="WHITE" radius="45.0" strokeType="INSIDE" GridPane.columnIndex="4" GridPane.rowIndex="0">
+                                             <stroke>
+                                                <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                   <stops>
+                                                      <Stop>
+                                                         <color>
+                                                            <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                         </color>
+                                                      </Stop>
+                                                      <Stop offset="1.0">
+                                                         <color>
+                                                            <Color red="1.0" green="1.0" blue="1.0" />
+                                                         </color>
+                                                      </Stop>
+                                                   </stops>
+                                                </RadialGradient>
+                                             </stroke>
+                                          </Circle>
+                                          <Circle fx:id="c50" fill="WHITE" radius="45.0" strokeType="INSIDE" GridPane.columnIndex="5" GridPane.rowIndex="0">
+                                             <stroke>
+                                                <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                   <stops>
+                                                      <Stop>
+                                                         <color>
+                                                            <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                         </color>
+                                                      </Stop>
+                                                      <Stop offset="1.0">
+                                                         <color>
+                                                            <Color red="1.0" green="1.0" blue="1.0" />
+                                                         </color>
+                                                      </Stop>
+                                                   </stops>
+                                                </RadialGradient>
+                                             </stroke>
+                                          </Circle>
+                                          <Circle fx:id="c01" fill="WHITE" radius="45.0" strokeType="INSIDE" GridPane.columnIndex="0" GridPane.rowIndex="1">
+                                             <stroke>
+                                                <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                   <stops>
+                                                      <Stop>
+                                                         <color>
+                                                            <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                         </color>
+                                                      </Stop>
+                                                      <Stop offset="1.0">
+                                                         <color>
+                                                            <Color red="1.0" green="1.0" blue="1.0" />
+                                                         </color>
+                                                      </Stop>
+                                                   </stops>
+                                                </RadialGradient>
+                                             </stroke>
+                                          </Circle>
+                                          <Circle fx:id="c11" fill="WHITE" radius="45.0" strokeType="INSIDE" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                                             <stroke>
+                                                <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                   <stops>
+                                                      <Stop>
+                                                         <color>
+                                                            <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                         </color>
+                                                      </Stop>
+                                                      <Stop offset="1.0">
+                                                         <color>
+                                                            <Color red="1.0" green="1.0" blue="1.0" />
+                                                         </color>
+                                                      </Stop>
+                                                   </stops>
+                                                </RadialGradient>
+                                             </stroke>
+                                          </Circle>
+                                          <Circle fx:id="c21" fill="WHITE" radius="45.0" strokeType="INSIDE" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                                             <stroke>
+                                                <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                   <stops>
+                                                      <Stop>
+                                                         <color>
+                                                            <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                         </color>
+                                                      </Stop>
+                                                      <Stop offset="1.0">
+                                                         <color>
+                                                            <Color red="1.0" green="1.0" blue="1.0" />
+                                                         </color>
+                                                      </Stop>
+                                                   </stops>
+                                                </RadialGradient>
+                                             </stroke>
+                                          </Circle>
+                                          <Circle fx:id="c60" fill="WHITE" radius="45.0" strokeType="INSIDE" GridPane.columnIndex="6" GridPane.rowIndex="0">
+                                             <stroke>
+                                                <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                   <stops>
+                                                      <Stop>
+                                                         <color>
+                                                            <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                         </color>
+                                                      </Stop>
+                                                      <Stop offset="1.0">
+                                                         <color>
+                                                            <Color red="1.0" green="1.0" blue="1.0" />
+                                                         </color>
+                                                      </Stop>
+                                                   </stops>
+                                                </RadialGradient>
+                                             </stroke>
+                                          </Circle>
+                                          <Circle fx:id="c61" fill="WHITE" radius="45.0" strokeType="INSIDE" GridPane.columnIndex="6" GridPane.rowIndex="1">
+                                             <stroke>
+                                                <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                   <stops>
+                                                      <Stop>
+                                                         <color>
+                                                            <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                         </color>
+                                                      </Stop>
+                                                      <Stop offset="1.0">
+                                                         <color>
+                                                            <Color red="1.0" green="1.0" blue="1.0" />
+                                                         </color>
+                                                      </Stop>
+                                                   </stops>
+                                                </RadialGradient>
+                                             </stroke>
+                                          </Circle>
+                                          <Circle fx:id="c51" fill="WHITE" radius="45.0" strokeType="INSIDE" GridPane.columnIndex="5" GridPane.rowIndex="1">
+                                             <stroke>
+                                                <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                   <stops>
+                                                      <Stop>
+                                                         <color>
+                                                            <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                         </color>
+                                                      </Stop>
+                                                      <Stop offset="1.0">
+                                                         <color>
+                                                            <Color red="1.0" green="1.0" blue="1.0" />
+                                                         </color>
+                                                      </Stop>
+                                                   </stops>
+                                                </RadialGradient>
+                                             </stroke>
+                                          </Circle>
+                                          <Circle fx:id="c41" fill="WHITE" radius="45.0" strokeType="INSIDE" GridPane.columnIndex="4" GridPane.rowIndex="1">
+                                             <stroke>
+                                                <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                   <stops>
+                                                      <Stop>
+                                                         <color>
+                                                            <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                         </color>
+                                                      </Stop>
+                                                      <Stop offset="1.0">
+                                                         <color>
+                                                            <Color red="1.0" green="1.0" blue="1.0" />
+                                                         </color>
+                                                      </Stop>
+                                                   </stops>
+                                                </RadialGradient>
+                                             </stroke>
+                                          </Circle>
+                                          <Circle fx:id="c31" fill="WHITE" radius="45.0" strokeType="INSIDE" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                                             <stroke>
+                                                <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                   <stops>
+                                                      <Stop>
+                                                         <color>
+                                                            <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                         </color>
+                                                      </Stop>
+                                                      <Stop offset="1.0">
+                                                         <color>
+                                                            <Color red="1.0" green="1.0" blue="1.0" />
+                                                         </color>
+                                                      </Stop>
+                                                   </stops>
+                                                </RadialGradient>
+                                             </stroke>
+                                          </Circle>
+                                          <Circle fx:id="c02" fill="WHITE" radius="45.0" strokeType="INSIDE" GridPane.columnIndex="0" GridPane.rowIndex="2">
+                                             <stroke>
+                                                <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                   <stops>
+                                                      <Stop>
+                                                         <color>
+                                                            <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                         </color>
+                                                      </Stop>
+                                                      <Stop offset="1.0">
+                                                         <color>
+                                                            <Color red="1.0" green="1.0" blue="1.0" />
+                                                         </color>
+                                                      </Stop>
+                                                   </stops>
+                                                </RadialGradient>
+                                             </stroke>
+                                          </Circle>
+                                          <Circle fx:id="c12" fill="WHITE" radius="45.0" strokeType="INSIDE" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                                             <stroke>
+                                                <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                   <stops>
+                                                      <Stop>
+                                                         <color>
+                                                            <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                         </color>
+                                                      </Stop>
+                                                      <Stop offset="1.0">
+                                                         <color>
+                                                            <Color red="1.0" green="1.0" blue="1.0" />
+                                                         </color>
+                                                      </Stop>
+                                                   </stops>
+                                                </RadialGradient>
+                                             </stroke>
+                                          </Circle>
+                                          <Circle fx:id="c22" fill="WHITE" radius="45.0" strokeType="INSIDE" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                                             <stroke>
+                                                <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                   <stops>
+                                                      <Stop>
+                                                         <color>
+                                                            <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                         </color>
+                                                      </Stop>
+                                                      <Stop offset="1.0">
+                                                         <color>
+                                                            <Color red="1.0" green="1.0" blue="1.0" />
+                                                         </color>
+                                                      </Stop>
+                                                   </stops>
+                                                </RadialGradient>
+                                             </stroke>
+                                          </Circle>
+                                          <Circle fx:id="c32" fill="WHITE" radius="45.0" strokeType="INSIDE" GridPane.columnIndex="3" GridPane.rowIndex="2">
+                                             <stroke>
+                                                <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                   <stops>
+                                                      <Stop>
+                                                         <color>
+                                                            <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                         </color>
+                                                      </Stop>
+                                                      <Stop offset="1.0">
+                                                         <color>
+                                                            <Color red="1.0" green="1.0" blue="1.0" />
+                                                         </color>
+                                                      </Stop>
+                                                   </stops>
+                                                </RadialGradient>
+                                             </stroke>
+                                          </Circle>
+                                          <Circle fx:id="c42" fill="WHITE" radius="45.0" strokeType="INSIDE" GridPane.columnIndex="4" GridPane.rowIndex="2">
+                                             <stroke>
+                                                <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                   <stops>
+                                                      <Stop>
+                                                         <color>
+                                                            <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                         </color>
+                                                      </Stop>
+                                                      <Stop offset="1.0">
+                                                         <color>
+                                                            <Color red="1.0" green="1.0" blue="1.0" />
+                                                         </color>
+                                                      </Stop>
+                                                   </stops>
+                                                </RadialGradient>
+                                             </stroke>
+                                          </Circle>
+                                          <Circle fx:id="c52" fill="WHITE" radius="45.0" strokeType="INSIDE" GridPane.columnIndex="5" GridPane.rowIndex="2">
+                                             <stroke>
+                                                <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                   <stops>
+                                                      <Stop>
+                                                         <color>
+                                                            <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                         </color>
+                                                      </Stop>
+                                                      <Stop offset="1.0">
+                                                         <color>
+                                                            <Color red="1.0" green="1.0" blue="1.0" />
+                                                         </color>
+                                                      </Stop>
+                                                   </stops>
+                                                </RadialGradient>
+                                             </stroke>
+                                          </Circle>
+                                          <Circle fx:id="c62" fill="WHITE" radius="45.0" strokeType="INSIDE" GridPane.columnIndex="6" GridPane.rowIndex="2">
+                                             <stroke>
+                                                <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                   <stops>
+                                                      <Stop>
+                                                         <color>
+                                                            <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                         </color>
+                                                      </Stop>
+                                                      <Stop offset="1.0">
+                                                         <color>
+                                                            <Color red="1.0" green="1.0" blue="1.0" />
+                                                         </color>
+                                                      </Stop>
+                                                   </stops>
+                                                </RadialGradient>
+                                             </stroke>
+                                          </Circle>
+                                          <Circle fx:id="c03" fill="WHITE" radius="45.0" strokeType="INSIDE" GridPane.columnIndex="0" GridPane.rowIndex="3">
+                                             <stroke>
+                                                <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                   <stops>
+                                                      <Stop>
+                                                         <color>
+                                                            <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                         </color>
+                                                      </Stop>
+                                                      <Stop offset="1.0">
+                                                         <color>
+                                                            <Color red="1.0" green="1.0" blue="1.0" />
+                                                         </color>
+                                                      </Stop>
+                                                   </stops>
+                                                </RadialGradient>
+                                             </stroke>
+                                          </Circle>
+                                          <Circle fx:id="c04" fill="WHITE" radius="45.0" strokeType="INSIDE" GridPane.columnIndex="0" GridPane.rowIndex="4">
+                                             <stroke>
+                                                <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                   <stops>
+                                                      <Stop>
+                                                         <color>
+                                                            <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                         </color>
+                                                      </Stop>
+                                                      <Stop offset="1.0">
+                                                         <color>
+                                                            <Color red="1.0" green="1.0" blue="1.0" />
+                                                         </color>
+                                                      </Stop>
+                                                   </stops>
+                                                </RadialGradient>
+                                             </stroke>
+                                          </Circle>
+                                          <Circle fx:id="c05" fill="WHITE" radius="45.0" strokeType="INSIDE" GridPane.columnIndex="0" GridPane.rowIndex="5">
+                                             <stroke>
+                                                <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                   <stops>
+                                                      <Stop>
+                                                         <color>
+                                                            <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                         </color>
+                                                      </Stop>
+                                                      <Stop offset="1.0">
+                                                         <color>
+                                                            <Color red="1.0" green="1.0" blue="1.0" />
+                                                         </color>
+                                                      </Stop>
+                                                   </stops>
+                                                </RadialGradient>
+                                             </stroke>
+                                          </Circle>
+                                          <Circle fx:id="c15" fill="WHITE" radius="45.0" strokeType="INSIDE" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                                             <stroke>
+                                                <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                   <stops>
+                                                      <Stop>
+                                                         <color>
+                                                            <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                         </color>
+                                                      </Stop>
+                                                      <Stop offset="1.0">
+                                                         <color>
+                                                            <Color red="1.0" green="1.0" blue="1.0" />
+                                                         </color>
+                                                      </Stop>
+                                                   </stops>
+                                                </RadialGradient>
+                                             </stroke>
+                                          </Circle>
+                                          <Circle fx:id="c25" fill="WHITE" radius="45.0" strokeType="INSIDE" GridPane.columnIndex="2" GridPane.rowIndex="5">
+                                             <stroke>
+                                                <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                   <stops>
+                                                      <Stop>
+                                                         <color>
+                                                            <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                         </color>
+                                                      </Stop>
+                                                      <Stop offset="1.0">
+                                                         <color>
+                                                            <Color red="1.0" green="1.0" blue="1.0" />
+                                                         </color>
+                                                      </Stop>
+                                                   </stops>
+                                                </RadialGradient>
+                                             </stroke>
+                                          </Circle>
+                                          <Circle fx:id="c35" fill="WHITE" radius="45.0" strokeType="INSIDE" GridPane.columnIndex="3" GridPane.rowIndex="5">
+                                             <stroke>
+                                                <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                   <stops>
+                                                      <Stop>
+                                                         <color>
+                                                            <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                         </color>
+                                                      </Stop>
+                                                      <Stop offset="1.0">
+                                                         <color>
+                                                            <Color red="1.0" green="1.0" blue="1.0" />
+                                                         </color>
+                                                      </Stop>
+                                                   </stops>
+                                                </RadialGradient>
+                                             </stroke>
+                                          </Circle>
+                                          <Circle fx:id="c45" fill="WHITE" radius="45.0" strokeType="INSIDE" GridPane.columnIndex="4" GridPane.rowIndex="5">
+                                             <stroke>
+                                                <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                   <stops>
+                                                      <Stop>
+                                                         <color>
+                                                            <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                         </color>
+                                                      </Stop>
+                                                      <Stop offset="1.0">
+                                                         <color>
+                                                            <Color red="1.0" green="1.0" blue="1.0" />
+                                                         </color>
+                                                      </Stop>
+                                                   </stops>
+                                                </RadialGradient>
+                                             </stroke>
+                                          </Circle>
+                                          <Circle fx:id="c55" fill="WHITE" radius="45.0" strokeType="INSIDE" GridPane.columnIndex="5" GridPane.rowIndex="5">
+                                             <stroke>
+                                                <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                   <stops>
+                                                      <Stop>
+                                                         <color>
+                                                            <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                         </color>
+                                                      </Stop>
+                                                      <Stop offset="1.0">
+                                                         <color>
+                                                            <Color red="1.0" green="1.0" blue="1.0" />
+                                                         </color>
+                                                      </Stop>
+                                                   </stops>
+                                                </RadialGradient>
+                                             </stroke>
+                                          </Circle>
+                                          <Circle fx:id="c65" fill="WHITE" radius="45.0" strokeType="INSIDE" GridPane.columnIndex="6" GridPane.rowIndex="5">
+                                             <stroke>
+                                                <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                   <stops>
+                                                      <Stop>
+                                                         <color>
+                                                            <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                         </color>
+                                                      </Stop>
+                                                      <Stop offset="1.0">
+                                                         <color>
+                                                            <Color red="1.0" green="1.0" blue="1.0" />
+                                                         </color>
+                                                      </Stop>
+                                                   </stops>
+                                                </RadialGradient>
+                                             </stroke>
+                                          </Circle>
+                                          <Circle fx:id="c64" fill="WHITE" radius="45.0" strokeType="INSIDE" GridPane.columnIndex="6" GridPane.rowIndex="4">
+                                             <stroke>
+                                                <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                   <stops>
+                                                      <Stop>
+                                                         <color>
+                                                            <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                         </color>
+                                                      </Stop>
+                                                      <Stop offset="1.0">
+                                                         <color>
+                                                            <Color red="1.0" green="1.0" blue="1.0" />
+                                                         </color>
+                                                      </Stop>
+                                                   </stops>
+                                                </RadialGradient>
+                                             </stroke>
+                                          </Circle>
+                                          <Circle fx:id="c63" fill="WHITE" radius="45.0" strokeType="INSIDE" GridPane.columnIndex="6" GridPane.rowIndex="3">
+                                             <stroke>
+                                                <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                   <stops>
+                                                      <Stop>
+                                                         <color>
+                                                            <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                         </color>
+                                                      </Stop>
+                                                      <Stop offset="1.0">
+                                                         <color>
+                                                            <Color red="1.0" green="1.0" blue="1.0" />
+                                                         </color>
+                                                      </Stop>
+                                                   </stops>
+                                                </RadialGradient>
+                                             </stroke>
+                                          </Circle>
+                                          <Circle fx:id="c54" fill="WHITE" radius="45.0" strokeType="INSIDE" GridPane.columnIndex="5" GridPane.rowIndex="4">
+                                             <stroke>
+                                                <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                   <stops>
+                                                      <Stop>
+                                                         <color>
+                                                            <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                         </color>
+                                                      </Stop>
+                                                      <Stop offset="1.0">
+                                                         <color>
+                                                            <Color red="1.0" green="1.0" blue="1.0" />
+                                                         </color>
+                                                      </Stop>
+                                                   </stops>
+                                                </RadialGradient>
+                                             </stroke>
+                                          </Circle>
+                                          <Circle fx:id="c53" fill="WHITE" radius="45.0" strokeType="INSIDE" GridPane.columnIndex="5" GridPane.rowIndex="3">
+                                             <stroke>
+                                                <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                   <stops>
+                                                      <Stop>
+                                                         <color>
+                                                            <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                         </color>
+                                                      </Stop>
+                                                      <Stop offset="1.0">
+                                                         <color>
+                                                            <Color red="1.0" green="1.0" blue="1.0" />
+                                                         </color>
+                                                      </Stop>
+                                                   </stops>
+                                                </RadialGradient>
+                                             </stroke>
+                                          </Circle>
+                                          <Circle fx:id="c44" fill="WHITE" radius="45.0" strokeType="INSIDE" GridPane.columnIndex="4" GridPane.rowIndex="4">
+                                             <stroke>
+                                                <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                   <stops>
+                                                      <Stop>
+                                                         <color>
+                                                            <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                         </color>
+                                                      </Stop>
+                                                      <Stop offset="1.0">
+                                                         <color>
+                                                            <Color red="1.0" green="1.0" blue="1.0" />
+                                                         </color>
+                                                      </Stop>
+                                                   </stops>
+                                                </RadialGradient>
+                                             </stroke>
+                                          </Circle>
+                                          <Circle fx:id="c43" fill="WHITE" radius="45.0" strokeType="INSIDE" GridPane.columnIndex="4" GridPane.rowIndex="3">
+                                             <stroke>
+                                                <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                   <stops>
+                                                      <Stop>
+                                                         <color>
+                                                            <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                         </color>
+                                                      </Stop>
+                                                      <Stop offset="1.0">
+                                                         <color>
+                                                            <Color red="1.0" green="1.0" blue="1.0" />
+                                                         </color>
+                                                      </Stop>
+                                                   </stops>
+                                                </RadialGradient>
+                                             </stroke>
+                                          </Circle>
+                                          <Circle fx:id="c24" fill="WHITE" radius="45.0" strokeType="INSIDE" GridPane.columnIndex="2" GridPane.rowIndex="4">
+                                             <stroke>
+                                                <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                   <stops>
+                                                      <Stop>
+                                                         <color>
+                                                            <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                         </color>
+                                                      </Stop>
+                                                      <Stop offset="1.0">
+                                                         <color>
+                                                            <Color red="1.0" green="1.0" blue="1.0" />
+                                                         </color>
+                                                      </Stop>
+                                                   </stops>
+                                                </RadialGradient>
+                                             </stroke>
+                                          </Circle>
+                                          <Circle fx:id="c14" fill="WHITE" radius="45.0" strokeType="INSIDE" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                                             <stroke>
+                                                <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                   <stops>
+                                                      <Stop>
+                                                         <color>
+                                                            <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                         </color>
+                                                      </Stop>
+                                                      <Stop offset="1.0">
+                                                         <color>
+                                                            <Color red="1.0" green="1.0" blue="1.0" />
+                                                         </color>
+                                                      </Stop>
+                                                   </stops>
+                                                </RadialGradient>
+                                             </stroke>
+                                          </Circle>
+                                          <Circle fx:id="c13" fill="WHITE" radius="45.0" strokeType="INSIDE" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                                             <stroke>
+                                                <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                   <stops>
+                                                      <Stop>
+                                                         <color>
+                                                            <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                         </color>
+                                                      </Stop>
+                                                      <Stop offset="1.0">
+                                                         <color>
+                                                            <Color red="1.0" green="1.0" blue="1.0" />
+                                                         </color>
+                                                      </Stop>
+                                                   </stops>
+                                                </RadialGradient>
+                                             </stroke>
+                                          </Circle>
+                                          <Circle fx:id="c23" fill="WHITE" radius="45.0" strokeType="INSIDE" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                                             <stroke>
+                                                <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                   <stops>
+                                                      <Stop>
+                                                         <color>
+                                                            <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                         </color>
+                                                      </Stop>
+                                                      <Stop offset="1.0">
+                                                         <color>
+                                                            <Color red="1.0" green="1.0" blue="1.0" />
+                                                         </color>
+                                                      </Stop>
+                                                   </stops>
+                                                </RadialGradient>
+                                             </stroke>
+                                          </Circle>
+                                          <Circle fx:id="c34" fill="WHITE" radius="45.0" strokeType="INSIDE" GridPane.columnIndex="3" GridPane.rowIndex="4">
+                                             <stroke>
+                                                <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                   <stops>
+                                                      <Stop>
+                                                         <color>
+                                                            <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                         </color>
+                                                      </Stop>
+                                                      <Stop offset="1.0">
+                                                         <color>
+                                                            <Color red="1.0" green="1.0" blue="1.0" />
+                                                         </color>
+                                                      </Stop>
+                                                   </stops>
+                                                </RadialGradient>
+                                             </stroke>
+                                          </Circle>
+                                          <Circle fx:id="c33" fill="WHITE" radius="45.0" strokeType="INSIDE" GridPane.columnIndex="3" GridPane.rowIndex="3">
+                                             <stroke>
+                                                <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                   <stops>
+                                                      <Stop>
+                                                         <color>
+                                                            <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                         </color>
+                                                      </Stop>
+                                                      <Stop offset="1.0">
+                                                         <color>
+                                                            <Color red="1.0" green="1.0" blue="1.0" />
+                                                         </color>
+                                                      </Stop>
+                                                   </stops>
+                                                </RadialGradient>
+                                             </stroke>
+                                          </Circle>
+                                       </children>
+                                    </GridPane>
+                                 </children>
+                              </StackPane>
+                              <StackPane layoutY="5.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="5.0">
+                                 <children>
+                                    <Pane maxWidth="-Infinity" minWidth="-Infinity" prefWidth="750.0">
+                                       <children>
+                                          <GridPane fx:id="hiddenGrid" alignment="CENTER" hgap="5.0" layoutX="7.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="90.0" prefWidth="730.0" vgap="5.0">
+                                            <columnConstraints>
+                                               <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                               <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                               <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                               <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                               <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                               <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                               <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                            </columnConstraints>
+                                            <rowConstraints>
+                                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                            </rowConstraints>
+                                             <children>
+                                                <StackPane fx:id="stack0" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.rowIndex="0">
+                                                   <children>
+                                                      <Circle fx:id="hidden0" fill="WHITE" radius="45.0" strokeType="INSIDE" visible="false">
+                                                         <stroke>
+                                                            <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                               <stops>
+                                                                  <Stop>
+                                                                     <color>
+                                                                        <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                                     </color>
+                                                                  </Stop>
+                                                                  <Stop offset="1.0">
+                                                                     <color>
+                                                                        <Color red="1.0" green="1.0" blue="1.0" />
+                                                                     </color>
+                                                                  </Stop>
+                                                               </stops>
+                                                            </RadialGradient>
+                                                         </stroke>
+                                                      </Circle>
+                                                      <Circle fx:id="hidden01" fill="WHITE" radius="45.0" strokeType="INSIDE" visible="false">
+                                                         <stroke>
+                                                            <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                               <stops>
+                                                                  <Stop>
+                                                                     <color>
+                                                                        <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                                     </color>
+                                                                  </Stop>
+                                                                  <Stop offset="1.0">
+                                                                     <color>
+                                                                        <Color red="1.0" green="1.0" blue="1.0" />
+                                                                     </color>
+                                                                  </Stop>
+                                                               </stops>
+                                                            </RadialGradient>
+                                                         </stroke>
+                                                      </Circle>
+                                                      <Circle fx:id="hidden011" fill="WHITE" radius="45.0" strokeType="INSIDE" visible="false">
+                                                         <stroke>
+                                                            <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                               <stops>
+                                                                  <Stop>
+                                                                     <color>
+                                                                        <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                                     </color>
+                                                                  </Stop>
+                                                                  <Stop offset="1.0">
+                                                                     <color>
+                                                                        <Color red="1.0" green="1.0" blue="1.0" />
+                                                                     </color>
+                                                                  </Stop>
+                                                               </stops>
+                                                            </RadialGradient>
+                                                         </stroke>
+                                                      </Circle>
+                                                      <Circle fx:id="hidden012" fill="WHITE" radius="45.0" strokeType="INSIDE" visible="false">
+                                                         <stroke>
+                                                            <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                               <stops>
+                                                                  <Stop>
+                                                                     <color>
+                                                                        <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                                     </color>
+                                                                  </Stop>
+                                                                  <Stop offset="1.0">
+                                                                     <color>
+                                                                        <Color red="1.0" green="1.0" blue="1.0" />
+                                                                     </color>
+                                                                  </Stop>
+                                                               </stops>
+                                                            </RadialGradient>
+                                                         </stroke>
+                                                      </Circle>
+                                                      <Circle fx:id="hidden013" fill="WHITE" radius="45.0" strokeType="INSIDE" visible="false">
+                                                         <stroke>
+                                                            <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                               <stops>
+                                                                  <Stop>
+                                                                     <color>
+                                                                        <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                                     </color>
+                                                                  </Stop>
+                                                                  <Stop offset="1.0">
+                                                                     <color>
+                                                                        <Color red="1.0" green="1.0" blue="1.0" />
+                                                                     </color>
+                                                                  </Stop>
+                                                               </stops>
+                                                            </RadialGradient>
+                                                         </stroke>
+                                                      </Circle>
+                                                      <Circle fx:id="hidden014" fill="WHITE" radius="45.0" strokeType="INSIDE" visible="false">
+                                                         <stroke>
+                                                            <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                               <stops>
+                                                                  <Stop>
+                                                                     <color>
+                                                                        <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                                     </color>
+                                                                  </Stop>
+                                                                  <Stop offset="1.0">
+                                                                     <color>
+                                                                        <Color red="1.0" green="1.0" blue="1.0" />
+                                                                     </color>
+                                                                  </Stop>
+                                                               </stops>
+                                                            </RadialGradient>
+                                                         </stroke>
+                                                      </Circle>
+                                                   </children>
+                                                </StackPane>
+                                                <StackPane GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="0">
+                                                   <children>
+                                                      <Circle fx:id="hidden1" fill="WHITE" radius="45.0" strokeType="INSIDE" visible="false">
+                                                         <stroke>
+                                                            <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                               <stops>
+                                                                  <Stop>
+                                                                     <color>
+                                                                        <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                                     </color>
+                                                                  </Stop>
+                                                                  <Stop offset="1.0">
+                                                                     <color>
+                                                                        <Color red="1.0" green="1.0" blue="1.0" />
+                                                                     </color>
+                                                                  </Stop>
+                                                               </stops>
+                                                            </RadialGradient>
+                                                         </stroke>
+                                                      </Circle>
+                                                      <Circle fx:id="hidden11" fill="WHITE" radius="45.0" strokeType="INSIDE" visible="false">
+                                                         <stroke>
+                                                            <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                               <stops>
+                                                                  <Stop>
+                                                                     <color>
+                                                                        <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                                     </color>
+                                                                  </Stop>
+                                                                  <Stop offset="1.0">
+                                                                     <color>
+                                                                        <Color red="1.0" green="1.0" blue="1.0" />
+                                                                     </color>
+                                                                  </Stop>
+                                                               </stops>
+                                                            </RadialGradient>
+                                                         </stroke>
+                                                      </Circle>
+                                                      <Circle fx:id="hidden12" fill="WHITE" radius="45.0" strokeType="INSIDE" visible="false">
+                                                         <stroke>
+                                                            <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                               <stops>
+                                                                  <Stop>
+                                                                     <color>
+                                                                        <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                                     </color>
+                                                                  </Stop>
+                                                                  <Stop offset="1.0">
+                                                                     <color>
+                                                                        <Color red="1.0" green="1.0" blue="1.0" />
+                                                                     </color>
+                                                                  </Stop>
+                                                               </stops>
+                                                            </RadialGradient>
+                                                         </stroke>
+                                                      </Circle>
+                                                      <Circle fx:id="hidden13" fill="WHITE" radius="45.0" strokeType="INSIDE" visible="false">
+                                                         <stroke>
+                                                            <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                               <stops>
+                                                                  <Stop>
+                                                                     <color>
+                                                                        <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                                     </color>
+                                                                  </Stop>
+                                                                  <Stop offset="1.0">
+                                                                     <color>
+                                                                        <Color red="1.0" green="1.0" blue="1.0" />
+                                                                     </color>
+                                                                  </Stop>
+                                                               </stops>
+                                                            </RadialGradient>
+                                                         </stroke>
+                                                      </Circle>
+                                                      <Circle fx:id="hidden14" fill="WHITE" radius="45.0" strokeType="INSIDE" visible="false">
+                                                         <stroke>
+                                                            <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                               <stops>
+                                                                  <Stop>
+                                                                     <color>
+                                                                        <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                                     </color>
+                                                                  </Stop>
+                                                                  <Stop offset="1.0">
+                                                                     <color>
+                                                                        <Color red="1.0" green="1.0" blue="1.0" />
+                                                                     </color>
+                                                                  </Stop>
+                                                               </stops>
+                                                            </RadialGradient>
+                                                         </stroke>
+                                                      </Circle>
+                                                      <Circle fx:id="hidden15" fill="WHITE" radius="45.0" strokeType="INSIDE" visible="false">
+                                                         <stroke>
+                                                            <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                               <stops>
+                                                                  <Stop>
+                                                                     <color>
+                                                                        <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                                     </color>
+                                                                  </Stop>
+                                                                  <Stop offset="1.0">
+                                                                     <color>
+                                                                        <Color red="1.0" green="1.0" blue="1.0" />
+                                                                     </color>
+                                                                  </Stop>
+                                                               </stops>
+                                                            </RadialGradient>
+                                                         </stroke>
+                                                      </Circle>
+                                                   </children>
+                                                </StackPane>
+                                                <StackPane GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="0">
+                                                   <children>
+                                                      <Circle fx:id="hidden2" fill="WHITE" radius="45.0" strokeType="INSIDE" visible="false">
+                                                         <stroke>
+                                                            <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                               <stops>
+                                                                  <Stop>
+                                                                     <color>
+                                                                        <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                                     </color>
+                                                                  </Stop>
+                                                                  <Stop offset="1.0">
+                                                                     <color>
+                                                                        <Color red="1.0" green="1.0" blue="1.0" />
+                                                                     </color>
+                                                                  </Stop>
+                                                               </stops>
+                                                            </RadialGradient>
+                                                         </stroke>
+                                                      </Circle>
+                                                      <Circle fx:id="hidden21" fill="WHITE" radius="45.0" strokeType="INSIDE" visible="false">
+                                                         <stroke>
+                                                            <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                               <stops>
+                                                                  <Stop>
+                                                                     <color>
+                                                                        <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                                     </color>
+                                                                  </Stop>
+                                                                  <Stop offset="1.0">
+                                                                     <color>
+                                                                        <Color red="1.0" green="1.0" blue="1.0" />
+                                                                     </color>
+                                                                  </Stop>
+                                                               </stops>
+                                                            </RadialGradient>
+                                                         </stroke>
+                                                      </Circle>
+                                                      <Circle fx:id="hidden22" fill="WHITE" radius="45.0" strokeType="INSIDE" visible="false">
+                                                         <stroke>
+                                                            <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                               <stops>
+                                                                  <Stop>
+                                                                     <color>
+                                                                        <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                                     </color>
+                                                                  </Stop>
+                                                                  <Stop offset="1.0">
+                                                                     <color>
+                                                                        <Color red="1.0" green="1.0" blue="1.0" />
+                                                                     </color>
+                                                                  </Stop>
+                                                               </stops>
+                                                            </RadialGradient>
+                                                         </stroke>
+                                                      </Circle>
+                                                      <Circle fx:id="hidden23" fill="WHITE" radius="45.0" strokeType="INSIDE" visible="false">
+                                                         <stroke>
+                                                            <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                               <stops>
+                                                                  <Stop>
+                                                                     <color>
+                                                                        <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                                     </color>
+                                                                  </Stop>
+                                                                  <Stop offset="1.0">
+                                                                     <color>
+                                                                        <Color red="1.0" green="1.0" blue="1.0" />
+                                                                     </color>
+                                                                  </Stop>
+                                                               </stops>
+                                                            </RadialGradient>
+                                                         </stroke>
+                                                      </Circle>
+                                                      <Circle fx:id="hidden24" fill="WHITE" radius="45.0" strokeType="INSIDE" visible="false">
+                                                         <stroke>
+                                                            <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                               <stops>
+                                                                  <Stop>
+                                                                     <color>
+                                                                        <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                                     </color>
+                                                                  </Stop>
+                                                                  <Stop offset="1.0">
+                                                                     <color>
+                                                                        <Color red="1.0" green="1.0" blue="1.0" />
+                                                                     </color>
+                                                                  </Stop>
+                                                               </stops>
+                                                            </RadialGradient>
+                                                         </stroke>
+                                                      </Circle>
+                                                      <Circle fx:id="hidden25" fill="WHITE" radius="45.0" strokeType="INSIDE" visible="false">
+                                                         <stroke>
+                                                            <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                               <stops>
+                                                                  <Stop>
+                                                                     <color>
+                                                                        <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                                     </color>
+                                                                  </Stop>
+                                                                  <Stop offset="1.0">
+                                                                     <color>
+                                                                        <Color red="1.0" green="1.0" blue="1.0" />
+                                                                     </color>
+                                                                  </Stop>
+                                                               </stops>
+                                                            </RadialGradient>
+                                                         </stroke>
+                                                      </Circle>
+                                                   </children>
+                                                </StackPane>
+                                                <StackPane GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="0">
+                                                   <children>
+                                                      <Circle fx:id="hidden3" fill="WHITE" radius="45.0" strokeType="INSIDE" visible="false">
+                                                         <stroke>
+                                                            <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                               <stops>
+                                                                  <Stop>
+                                                                     <color>
+                                                                        <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                                     </color>
+                                                                  </Stop>
+                                                                  <Stop offset="1.0">
+                                                                     <color>
+                                                                        <Color red="1.0" green="1.0" blue="1.0" />
+                                                                     </color>
+                                                                  </Stop>
+                                                               </stops>
+                                                            </RadialGradient>
+                                                         </stroke>
+                                                      </Circle>
+                                                      <Circle fx:id="hidden31" fill="WHITE" radius="45.0" strokeType="INSIDE" visible="false">
+                                                         <stroke>
+                                                            <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                               <stops>
+                                                                  <Stop>
+                                                                     <color>
+                                                                        <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                                     </color>
+                                                                  </Stop>
+                                                                  <Stop offset="1.0">
+                                                                     <color>
+                                                                        <Color red="1.0" green="1.0" blue="1.0" />
+                                                                     </color>
+                                                                  </Stop>
+                                                               </stops>
+                                                            </RadialGradient>
+                                                         </stroke>
+                                                      </Circle>
+                                                      <Circle fx:id="hidden32" fill="WHITE" radius="45.0" strokeType="INSIDE" visible="false">
+                                                         <stroke>
+                                                            <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                               <stops>
+                                                                  <Stop>
+                                                                     <color>
+                                                                        <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                                     </color>
+                                                                  </Stop>
+                                                                  <Stop offset="1.0">
+                                                                     <color>
+                                                                        <Color red="1.0" green="1.0" blue="1.0" />
+                                                                     </color>
+                                                                  </Stop>
+                                                               </stops>
+                                                            </RadialGradient>
+                                                         </stroke>
+                                                      </Circle>
+                                                      <Circle fx:id="hidden33" fill="WHITE" radius="45.0" strokeType="INSIDE" visible="false">
+                                                         <stroke>
+                                                            <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                               <stops>
+                                                                  <Stop>
+                                                                     <color>
+                                                                        <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                                     </color>
+                                                                  </Stop>
+                                                                  <Stop offset="1.0">
+                                                                     <color>
+                                                                        <Color red="1.0" green="1.0" blue="1.0" />
+                                                                     </color>
+                                                                  </Stop>
+                                                               </stops>
+                                                            </RadialGradient>
+                                                         </stroke>
+                                                      </Circle>
+                                                      <Circle fx:id="hidden34" fill="WHITE" radius="45.0" strokeType="INSIDE" visible="false">
+                                                         <stroke>
+                                                            <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                               <stops>
+                                                                  <Stop>
+                                                                     <color>
+                                                                        <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                                     </color>
+                                                                  </Stop>
+                                                                  <Stop offset="1.0">
+                                                                     <color>
+                                                                        <Color red="1.0" green="1.0" blue="1.0" />
+                                                                     </color>
+                                                                  </Stop>
+                                                               </stops>
+                                                            </RadialGradient>
+                                                         </stroke>
+                                                      </Circle>
+                                                      <Circle fx:id="hidden35" fill="WHITE" radius="45.0" strokeType="INSIDE" visible="false">
+                                                         <stroke>
+                                                            <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                               <stops>
+                                                                  <Stop>
+                                                                     <color>
+                                                                        <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                                     </color>
+                                                                  </Stop>
+                                                                  <Stop offset="1.0">
+                                                                     <color>
+                                                                        <Color red="1.0" green="1.0" blue="1.0" />
+                                                                     </color>
+                                                                  </Stop>
+                                                               </stops>
+                                                            </RadialGradient>
+                                                         </stroke>
+                                                      </Circle>
+                                                   </children>
+                                                </StackPane>
+                                                <StackPane GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="0">
+                                                   <children>
+                                                      <Circle fx:id="hidden4" fill="WHITE" radius="45.0" strokeType="INSIDE" visible="false">
+                                                         <stroke>
+                                                            <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                               <stops>
+                                                                  <Stop>
+                                                                     <color>
+                                                                        <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                                     </color>
+                                                                  </Stop>
+                                                                  <Stop offset="1.0">
+                                                                     <color>
+                                                                        <Color red="1.0" green="1.0" blue="1.0" />
+                                                                     </color>
+                                                                  </Stop>
+                                                               </stops>
+                                                            </RadialGradient>
+                                                         </stroke>
+                                                      </Circle>
+                                                      <Circle fx:id="hidden41" fill="WHITE" radius="45.0" strokeType="INSIDE" visible="false">
+                                                         <stroke>
+                                                            <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                               <stops>
+                                                                  <Stop>
+                                                                     <color>
+                                                                        <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                                     </color>
+                                                                  </Stop>
+                                                                  <Stop offset="1.0">
+                                                                     <color>
+                                                                        <Color red="1.0" green="1.0" blue="1.0" />
+                                                                     </color>
+                                                                  </Stop>
+                                                               </stops>
+                                                            </RadialGradient>
+                                                         </stroke>
+                                                      </Circle>
+                                                      <Circle fx:id="hidden42" fill="WHITE" radius="45.0" strokeType="INSIDE" visible="false">
+                                                         <stroke>
+                                                            <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                               <stops>
+                                                                  <Stop>
+                                                                     <color>
+                                                                        <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                                     </color>
+                                                                  </Stop>
+                                                                  <Stop offset="1.0">
+                                                                     <color>
+                                                                        <Color red="1.0" green="1.0" blue="1.0" />
+                                                                     </color>
+                                                                  </Stop>
+                                                               </stops>
+                                                            </RadialGradient>
+                                                         </stroke>
+                                                      </Circle>
+                                                      <Circle fx:id="hidden43" fill="WHITE" radius="45.0" strokeType="INSIDE" visible="false">
+                                                         <stroke>
+                                                            <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                               <stops>
+                                                                  <Stop>
+                                                                     <color>
+                                                                        <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                                     </color>
+                                                                  </Stop>
+                                                                  <Stop offset="1.0">
+                                                                     <color>
+                                                                        <Color red="1.0" green="1.0" blue="1.0" />
+                                                                     </color>
+                                                                  </Stop>
+                                                               </stops>
+                                                            </RadialGradient>
+                                                         </stroke>
+                                                      </Circle>
+                                                      <Circle fx:id="hidden44" fill="WHITE" radius="45.0" strokeType="INSIDE" visible="false">
+                                                         <stroke>
+                                                            <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                               <stops>
+                                                                  <Stop>
+                                                                     <color>
+                                                                        <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                                     </color>
+                                                                  </Stop>
+                                                                  <Stop offset="1.0">
+                                                                     <color>
+                                                                        <Color red="1.0" green="1.0" blue="1.0" />
+                                                                     </color>
+                                                                  </Stop>
+                                                               </stops>
+                                                            </RadialGradient>
+                                                         </stroke>
+                                                      </Circle>
+                                                      <Circle fx:id="hidden45" fill="WHITE" radius="45.0" strokeType="INSIDE" visible="false">
+                                                         <stroke>
+                                                            <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                               <stops>
+                                                                  <Stop>
+                                                                     <color>
+                                                                        <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                                     </color>
+                                                                  </Stop>
+                                                                  <Stop offset="1.0">
+                                                                     <color>
+                                                                        <Color red="1.0" green="1.0" blue="1.0" />
+                                                                     </color>
+                                                                  </Stop>
+                                                               </stops>
+                                                            </RadialGradient>
+                                                         </stroke>
+                                                      </Circle>
+                                                   </children>
+                                                </StackPane>
+                                                <StackPane GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="0">
+                                                   <children>
+                                                      <Circle fx:id="hidden5" fill="WHITE" radius="45.0" strokeType="INSIDE" visible="false">
+                                                         <stroke>
+                                                            <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                               <stops>
+                                                                  <Stop>
+                                                                     <color>
+                                                                        <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                                     </color>
+                                                                  </Stop>
+                                                                  <Stop offset="1.0">
+                                                                     <color>
+                                                                        <Color red="1.0" green="1.0" blue="1.0" />
+                                                                     </color>
+                                                                  </Stop>
+                                                               </stops>
+                                                            </RadialGradient>
+                                                         </stroke>
+                                                      </Circle>
+                                                      <Circle fx:id="hidden51" fill="WHITE" radius="45.0" strokeType="INSIDE" visible="false">
+                                                         <stroke>
+                                                            <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                               <stops>
+                                                                  <Stop>
+                                                                     <color>
+                                                                        <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                                     </color>
+                                                                  </Stop>
+                                                                  <Stop offset="1.0">
+                                                                     <color>
+                                                                        <Color red="1.0" green="1.0" blue="1.0" />
+                                                                     </color>
+                                                                  </Stop>
+                                                               </stops>
+                                                            </RadialGradient>
+                                                         </stroke>
+                                                      </Circle>
+                                                      <Circle fx:id="hidden52" fill="WHITE" radius="45.0" strokeType="INSIDE" visible="false">
+                                                         <stroke>
+                                                            <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                               <stops>
+                                                                  <Stop>
+                                                                     <color>
+                                                                        <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                                     </color>
+                                                                  </Stop>
+                                                                  <Stop offset="1.0">
+                                                                     <color>
+                                                                        <Color red="1.0" green="1.0" blue="1.0" />
+                                                                     </color>
+                                                                  </Stop>
+                                                               </stops>
+                                                            </RadialGradient>
+                                                         </stroke>
+                                                      </Circle>
+                                                      <Circle fx:id="hidden53" fill="WHITE" radius="45.0" strokeType="INSIDE" visible="false">
+                                                         <stroke>
+                                                            <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                               <stops>
+                                                                  <Stop>
+                                                                     <color>
+                                                                        <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                                     </color>
+                                                                  </Stop>
+                                                                  <Stop offset="1.0">
+                                                                     <color>
+                                                                        <Color red="1.0" green="1.0" blue="1.0" />
+                                                                     </color>
+                                                                  </Stop>
+                                                               </stops>
+                                                            </RadialGradient>
+                                                         </stroke>
+                                                      </Circle>
+                                                      <Circle fx:id="hidden54" fill="WHITE" radius="45.0" strokeType="INSIDE" visible="false">
+                                                         <stroke>
+                                                            <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                               <stops>
+                                                                  <Stop>
+                                                                     <color>
+                                                                        <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                                     </color>
+                                                                  </Stop>
+                                                                  <Stop offset="1.0">
+                                                                     <color>
+                                                                        <Color red="1.0" green="1.0" blue="1.0" />
+                                                                     </color>
+                                                                  </Stop>
+                                                               </stops>
+                                                            </RadialGradient>
+                                                         </stroke>
+                                                      </Circle>
+                                                      <Circle fx:id="hidden55" fill="WHITE" radius="45.0" strokeType="INSIDE" visible="false">
+                                                         <stroke>
+                                                            <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                               <stops>
+                                                                  <Stop>
+                                                                     <color>
+                                                                        <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                                     </color>
+                                                                  </Stop>
+                                                                  <Stop offset="1.0">
+                                                                     <color>
+                                                                        <Color red="1.0" green="1.0" blue="1.0" />
+                                                                     </color>
+                                                                  </Stop>
+                                                               </stops>
+                                                            </RadialGradient>
+                                                         </stroke>
+                                                      </Circle>
+                                                   </children>
+                                                </StackPane>
+                                                <StackPane GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="0">
+                                                   <children>
+                                                      <Circle fx:id="hidden6" fill="WHITE" radius="45.0" strokeType="INSIDE" visible="false">
+                                                         <stroke>
+                                                            <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                               <stops>
+                                                                  <Stop>
+                                                                     <color>
+                                                                        <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                                     </color>
+                                                                  </Stop>
+                                                                  <Stop offset="1.0">
+                                                                     <color>
+                                                                        <Color red="1.0" green="1.0" blue="1.0" />
+                                                                     </color>
+                                                                  </Stop>
+                                                               </stops>
+                                                            </RadialGradient>
+                                                         </stroke>
+                                                      </Circle>
+                                                      <Circle fx:id="hidden61" fill="WHITE" radius="45.0" strokeType="INSIDE" visible="false">
+                                                         <stroke>
+                                                            <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                               <stops>
+                                                                  <Stop>
+                                                                     <color>
+                                                                        <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                                     </color>
+                                                                  </Stop>
+                                                                  <Stop offset="1.0">
+                                                                     <color>
+                                                                        <Color red="1.0" green="1.0" blue="1.0" />
+                                                                     </color>
+                                                                  </Stop>
+                                                               </stops>
+                                                            </RadialGradient>
+                                                         </stroke>
+                                                      </Circle>
+                                                      <Circle fx:id="hidden62" fill="WHITE" radius="45.0" strokeType="INSIDE" visible="false">
+                                                         <stroke>
+                                                            <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                               <stops>
+                                                                  <Stop>
+                                                                     <color>
+                                                                        <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                                     </color>
+                                                                  </Stop>
+                                                                  <Stop offset="1.0">
+                                                                     <color>
+                                                                        <Color red="1.0" green="1.0" blue="1.0" />
+                                                                     </color>
+                                                                  </Stop>
+                                                               </stops>
+                                                            </RadialGradient>
+                                                         </stroke>
+                                                      </Circle>
+                                                      <Circle fx:id="hidden63" fill="WHITE" radius="45.0" strokeType="INSIDE" visible="false">
+                                                         <stroke>
+                                                            <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                               <stops>
+                                                                  <Stop>
+                                                                     <color>
+                                                                        <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                                     </color>
+                                                                  </Stop>
+                                                                  <Stop offset="1.0">
+                                                                     <color>
+                                                                        <Color red="1.0" green="1.0" blue="1.0" />
+                                                                     </color>
+                                                                  </Stop>
+                                                               </stops>
+                                                            </RadialGradient>
+                                                         </stroke>
+                                                      </Circle>
+                                                      <Circle fx:id="hidden64" fill="WHITE" radius="45.0" strokeType="INSIDE" visible="false">
+                                                         <stroke>
+                                                            <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                               <stops>
+                                                                  <Stop>
+                                                                     <color>
+                                                                        <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                                     </color>
+                                                                  </Stop>
+                                                                  <Stop offset="1.0">
+                                                                     <color>
+                                                                        <Color red="1.0" green="1.0" blue="1.0" />
+                                                                     </color>
+                                                                  </Stop>
+                                                               </stops>
+                                                            </RadialGradient>
+                                                         </stroke>
+                                                      </Circle>
+                                                      <Circle fx:id="hidden65" fill="WHITE" radius="45.0" strokeType="INSIDE" visible="false">
+                                                         <stroke>
+                                                            <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.5">
+                                                               <stops>
+                                                                  <Stop>
+                                                                     <color>
+                                                                        <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.801369845867157" />
+                                                                     </color>
+                                                                  </Stop>
+                                                                  <Stop offset="1.0">
+                                                                     <color>
+                                                                        <Color red="1.0" green="1.0" blue="1.0" />
+                                                                     </color>
+                                                                  </Stop>
+                                                               </stops>
+                                                            </RadialGradient>
+                                                         </stroke>
+                                                      </Circle>
+                                                   </children>
+                                                </StackPane>
+                                             </children>
+                                          </GridPane>
+                                       </children>
+                                    </Pane>
+                                 </children>
+                              </StackPane>
+                           </children>
+                        </AnchorPane>
+                      <AnchorPane maxWidth="-Infinity" minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="445.0" SplitPane.resizableWithParent="false">
+                           <children>
+                              <Label alignment="CENTER" contentDisplay="CENTER" layoutX="75.0" layoutY="35.0" text="Results" textAlignment="CENTER" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+                                 <textFill>
+                                    <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                                       <stops>
+                                          <Stop>
+                                             <color>
+                                                <Color red="0.21279999613761902" green="0.2996000051498413" blue="0.5600000023841858" opacity="0.6643835306167603" />
+                                             </color>
+                                          </Stop>
+                                          <Stop offset="1.0">
+                                             <color>
+                                                <Color red="0.07360623776912689" green="0.1350279450416565" blue="0.3368421196937561" />
+                                             </color>
+                                          </Stop>
+                                       </stops>
+                                    </RadialGradient>
+                                 </textFill>
+                                 <font>
+                                    <Font name="Lucida Bright Demibold" size="41.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="10.0" layoutY="433.0" prefHeight="38.0" prefWidth="116.0" text="Algoritms:" textFill="#151f3e" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="0.0">
+                                 <font>
+                                    <Font name="Lucida Bright" size="19.0" />
+                                 </font>
+                              </Label>
+                              <ChoiceBox fx:id="algorithms" layoutX="20.0" layoutY="472.0" prefHeight="37.0" prefWidth="237.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" />
+                              <Label layoutX="10.0" layoutY="519.0" prefHeight="38.0" prefWidth="116.0" text="Your Color:" textFill="#151f3e" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="0.0">
+                                 <font>
+                                    <Font name="Lucida Bright" size="18.0" />
+                                 </font>
+                              </Label>
+                              <ChoiceBox fx:id="color" layoutX="20.0" layoutY="557.0" prefHeight="37.0" prefWidth="237.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" />
+                              <Button fx:id="start" alignment="CENTER" contentDisplay="CENTER" layoutX="75.0" layoutY="678.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="142.0" text="Start The Game" textAlignment="CENTER" textFill="#0e2e4b">
+                                 <font>
+                                    <Font name="Lucida Bright" size="15.0" />
+                                 </font>
+                              </Button>
+                              <Separator layoutY="416.0" prefHeight="10.0" prefWidth="283.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+                              <ListView fx:id="resultBoard" layoutX="37.0" layoutY="117.0" prefHeight="261.0" prefWidth="209.0" AnchorPane.bottomAnchor="400.0" AnchorPane.leftAnchor="37.0" AnchorPane.rightAnchor="37.0" AnchorPane.topAnchor="117.0" />
+                              <TextField fx:id="k" layoutX="225.0" layoutY="608.0" prefHeight="38.0" prefWidth="49.0" />
+                              <Label layoutX="10.0" layoutY="608.0" prefHeight="38.0" prefWidth="218.0" text="MiniMax Tree Depth (K):" textFill="#151f3e">
+                                 <font>
+                                    <Font name="Lucida Bright" size="18.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                    </items>
+                  </SplitPane>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>
