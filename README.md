@@ -20,6 +20,8 @@ This implementation of Connect-4 is played on a grid with a width of at least 7 
 ### Game GUI
 
 The game features a graphical user interface (GUI) that allows you to play against a computer opponent in human vs. computer mode.
+![image](https://github.com/FarahMourad/Connect-4/assets/51189763/47315c33-1f94-4ace-a56b-2be35f185ddc)
+
 
 ### Algorithms
 
